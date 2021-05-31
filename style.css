@@ -1,3 +1,75 @@
 body {
-    background-color:azure
+    background-color:azure;
+    margin: 0;
 }
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    border-top:1px solid rgb(197, 196, 196);
+    border-bottom:1px solid rgb(197, 196, 196);
+}
+
+/* Home Image Navigation */
+.navbar-item img{
+    max-height: 5rem;
+    box-sizing: inherit;
+    position:relative;
+    display:block;
+    margin:0 auto;
+}
+
+.home {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(134, 132, 132);
+    border: none;
+    padding:16px;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(134, 132, 132);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .navbar-dropdown-hover {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .navbar-dropdown {
+    display: none;
+    position:absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .navbar-dropdown a {
+    color: rgb(134, 132, 132);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of hover background */
+  .dropbtn:hover {box-shadow:1px 1px 5px 1px rgb(141, 141, 141)}
+
+  /* Change color of dropdown links on hover */
+  .navbar-dropdown a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .navbar-dropdown-hover:hover .navbar-dropdown {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .navbar-dropdown-hover:hover .dropbtn {background-color: #ffffff;}
