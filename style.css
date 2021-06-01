@@ -20,7 +20,7 @@ body {
     margin:0 auto;
 }
 
-/* Navigation Home Bar */
+/* Home Navigation Bar */
 .home {
     display: inline-block;
     font-size: 16px;
@@ -29,6 +29,17 @@ body {
     padding:16px;
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Contact Navigation Bar */
+.contact{
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(134, 132, 132);
+    border: none;
+    padding:16px;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;   
 }
 
 /* Dropdown Button */
@@ -90,3 +101,58 @@ body {
 .navbar-dropdown-hover:hover .dropbtn {
     background-color: #ffffff;
 }
+
+/* Aligning form to the center */
+form{
+    text-align: center;
+}
+
+/* Contact H2 */
+.formTitle{
+    text-align: center;
+}
+
+.form-row{
+    display:flex;
+}
+
+.form-group{
+    padding: 5px;
+    width: 100%;
+}
+
+.form-group input {
+    width:100%;
+}
+
+
+
+
+
+
+
+
+/* Contact Name Box
+#name{
+    border: 1px solid #ccc;
+    display:inline-block;
+}
+
+/* Contact Email Box 
+#email{
+    border: 1px solid #ccc;
+}
+
+/* Contact Message Box 
+#message{
+    border: 1px solid #ccc;
+}
+
+/* Making inputs focus 
+#name:focus, #email:focus, #message:focus{
+    transition:0.5s;
+    -webkit-transition: 0.5s;
+    outline: none;
+    border: 2px solid #555;
+}
+*/
