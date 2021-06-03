@@ -86,6 +86,10 @@ body {
     box-shadow:1px 1px 5px 1px rgb(141, 141, 141)
 }
 
+/*Change color of hover background on Contact icon */
+.contact:hover{
+    box-shadow:1px 1px 5px 1px rgb(141, 141, 141)    
+}
 
 /* Change color of dropdown links on hover */
 .navbar-dropdown a:hover {
