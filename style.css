@@ -12,6 +12,7 @@ body {
 /* Making the headers in Body center */
 .indexH1, .indexH2{
     text-align: center;
+    color:#39393a;
 }
 
 /* Setting scrollbar size */
