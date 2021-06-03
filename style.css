@@ -1,7 +1,26 @@
+:root{
+    font-size:16px;
+}
+
 /* The Body */
 body {
     background-color:azure;
     margin: 0;
+}
+
+/* Setting scrollbar size */
+body::-webkit-scrollbar{
+    width:0.25rem;
+}
+
+/* Setting scrollbar track color */
+body::-webkit-scrollbar-track{
+    background: #1e1e24;
+}
+
+/* Setting scrollbar thumb color */
+body::-webkit-scrollbar-thumb{
+    background: rgb(255, 166, 0);
 }
 
 /* Navigation Bar */
