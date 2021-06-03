@@ -1,11 +1,17 @@
 :root{
     font-size:16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* The Body */
 body {
     background-color:azure;
     margin: 0;
+}
+
+/* Making the headers in Body center */
+.indexH1, .indexH2{
+    text-align: center;
 }
 
 /* Setting scrollbar size */
@@ -16,11 +22,14 @@ body::-webkit-scrollbar{
 /* Setting scrollbar track color */
 body::-webkit-scrollbar-track{
     background: #1e1e24;
+    border-radius: 0.15rem;
 }
 
 /* Setting scrollbar thumb color */
 body::-webkit-scrollbar-thumb{
     background: rgb(255, 166, 0);
+    border-radius: 0.15rem;
+
 }
 
 /* Navigation Bar */
