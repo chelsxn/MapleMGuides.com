@@ -32,6 +32,10 @@ body::-webkit-scrollbar-thumb{
 
 }
 
+.mesoH1{
+    text-align: center;
+}
+
 /* Navigation Bar */
 .navbar{
     background-color: rgb(255, 255, 255);
