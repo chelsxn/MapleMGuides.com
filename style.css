@@ -51,6 +51,12 @@ body::-webkit-scrollbar-thumb{
     color:#39393a;  
 }
 
+/* Level page H1 Alignments */
+.levelH1{
+    text-align: center;
+    color:#39393a; 
+}
+
 /* Navigation Bar */
 .navbar{
     background-color: rgb(255, 255, 255);
