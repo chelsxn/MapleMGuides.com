@@ -33,6 +33,7 @@ body::-webkit-scrollbar-thumb{
 
 }
 
+/* Meso Page H1 alignment */
 .mesoH1{
     text-align: center;
     color:#39393a;
@@ -49,6 +50,7 @@ body::-webkit-scrollbar-thumb{
     border-top:1px solid rgb(197, 196, 196);
     border-bottom:1px solid rgb(197, 196, 196);
 }
+
 
 /* Home Image Navigation Bar */
 .navbar-item img{
@@ -113,21 +115,22 @@ body::-webkit-scrollbar-thumb{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    transition: 0.4s all;
 }
 
 /* Change color of hover background */
 .dropbtn:hover {
-    box-shadow:1px 1px 5px 1px rgb(141, 141, 141)
+    box-shadow:1px 1px 5px 1px rgb(141, 141, 141);
 }
 
 /* Change color of hover background on Home icon */
 .home:hover{
-    box-shadow:1px 1px 5px 1px rgb(141, 141, 141)
+    box-shadow:1px 1px 5px 1px rgb(141, 141, 141);
 }
 
 /*Change color of hover background on Contact icon */
 .contact:hover{
-    box-shadow:1px 1px 5px 1px rgb(141, 141, 141)    
+    box-shadow:1px 1px 5px 1px rgb(141, 141, 141);
 }
 
 /* Change color of dropdown links on hover */
