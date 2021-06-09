@@ -7,12 +7,24 @@
 body {
     background-color:azure;
     margin: 0;
+}
+
+*{
     cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto;
 }
 
-/* Making a links have a different hover icon*/
+/* Making a links have a different hover icon */
 a:link{
     cursor: url(https://images.wikia.nocookie.net/__cb20141003083552/maplestory/images/e/ea/MSCursorHover.gif),pointer;
+}
+
+/* Making input have a difference hover icon */
+input:hover{
+    cursor: url(https://images.wikia.nocookie.net/__cb20141003083552/maplestory/images/e/ea/MSCursorHover.gif),pointer;    
+}
+
+.homelogo{
+    cursor: url(https://images.wikia.nocookie.net/__cb20141003083552/maplestory/images/e/ea/MSCursorHover.gif),pointer; 
 }
 
 /* Making the headers in Body center */
@@ -68,7 +80,7 @@ body::-webkit-scrollbar-thumb{
     background-color: rgb(255, 255, 255);
     border-top:1px solid rgb(197, 196, 196);
     border-bottom:1px solid rgb(197, 196, 196);
-    cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto;
+    cursor: url(https://images.wikia.nocookie.net/__cb20141003083552/maplestory/images/e/ea/MSCursorHover.gif),pointer;
 }
 
 
@@ -111,7 +123,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 16px;
     border: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto;
+    cursor: url(https://images.wikia.nocookie.net/__cb20141003083552/maplestory/images/e/ea/MSCursorHover.gif),pointer;
 
 }
   
