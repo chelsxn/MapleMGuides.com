@@ -18,11 +18,12 @@ a:link{
     cursor: url(https://images.wikia.nocookie.net/__cb20141003083552/maplestory/images/e/ea/MSCursorHover.gif),pointer;
 }
 
-/* Making input have a difference hover icon */
+/* Making input have a different hover icon */
 input:hover{
     cursor: url(https://images.wikia.nocookie.net/__cb20141003083552/maplestory/images/e/ea/MSCursorHover.gif),pointer;    
 }
 
+/* Making Home Logo have a different hover icon */
 .homelogo{
     cursor: url(https://images.wikia.nocookie.net/__cb20141003083552/maplestory/images/e/ea/MSCursorHover.gif),pointer; 
 }
