@@ -34,6 +34,11 @@ input:hover{
     color:#39393a;
 }
 
+.sfH1, .sfH2{
+    text-align: center;
+    color:#39393a;
+}
+
 /* Setting scrollbar size */
 body::-webkit-scrollbar{
     width:0.25rem;
