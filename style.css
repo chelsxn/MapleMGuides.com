@@ -52,7 +52,7 @@ body::-webkit-scrollbar-track{
 
 /* Setting scrollbar thumb color */
 body::-webkit-scrollbar-thumb{
-    background: rgb(255, 166, 0);
+    background: rgb(252, 207, 123);
     border-radius: 0.15rem;
 
 }
