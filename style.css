@@ -41,7 +41,7 @@ input:hover{
 
 /* Setting scrollbar size */
 body::-webkit-scrollbar{
-    width:0.25rem;
+    width:0.45rem;
 }
 
 /* Setting scrollbar track color */
