@@ -46,6 +46,12 @@ input:hover{
     color:#39393a;
 }
 
+/* Making alignmenmts of H1 and H2 of Acronyms Page */
+.acH1, .acH2{
+    text-align: center;
+    color:#39393a;
+}
+
 /* Setting scrollbar size */
 body::-webkit-scrollbar{
     width:0.45rem;
