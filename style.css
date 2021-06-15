@@ -52,24 +52,6 @@ input:hover{
     color:#39393a;
 }
 
-/* Setting scrollbar size */
-body::-webkit-scrollbar{
-    width:0.45rem;
-}
-
-/* Setting scrollbar track color */
-body::-webkit-scrollbar-track{
-    background: #474749;
-    border-radius: 0.15rem;
-}
-
-/* Setting scrollbar thumb color */
-body::-webkit-scrollbar-thumb{
-    background: rgb(252, 207, 123);
-    border-radius: 0.15rem;
-
-}
-
 /* Meso Page H1 alignment */
 .mesoH1{
     text-align: center;
@@ -94,13 +76,30 @@ body::-webkit-scrollbar-thumb{
     color:#39393a; 
 }
 
+/* Setting scrollbar size */
+body::-webkit-scrollbar{
+    width:0.45rem;
+}
+
+/* Setting scrollbar track color */
+body::-webkit-scrollbar-track{
+    background: #474749;
+    border-radius: 0.15rem;
+}
+
+/* Setting scrollbar thumb color */
+body::-webkit-scrollbar-thumb{
+    background: rgb(252, 207, 123);
+    border-radius: 0.15rem;
+
+}
+
 /* Navigation Bar */
 .navbar{
     background-color: rgb(255, 255, 255);
     border-top:1px solid rgb(197, 196, 196);
     border-bottom:1px solid rgb(197, 196, 196);
 }
-
 
 /* Home Image Navigation Bar */
 .navbar-item img{
