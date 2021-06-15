@@ -210,6 +210,7 @@ form{
     color:#39393a; 
 }
 
+/*
 .form-row{
     display:flex;
 }
@@ -222,8 +223,34 @@ form{
 .form-group input {
     width:100%;
 }
+*/
 
+#name{
+    float:left;
+    margin-left: 200px;
+    width:35%;
+    height: 2.5em;
+}
 
+#email{
+    float:right;
+    margin-right: 200px;
+    width: 35%;
+    height: 2.5em;
+}
+
+#message{
+    margin-top: 10px;
+    width: 71.7%;
+    height: 10em;
+}
+
+#button{
+    background-color: rgb(252, 207, 123);
+    float:left;
+    margin-left: 200px;
+    margin-top: 10px;
+}
 
 /* Start https://www.cursors-4u.com */ 
 /* {cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;} 
