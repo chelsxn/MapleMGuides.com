@@ -34,8 +34,14 @@ input:hover{
     color:#39393a;
 }
 
-/* Making aligning the H1 and H2 of Star Force Page */
+/* Making alingments of the H1 and H2 of Star Force Page */
 .sfH1, .sfH2{
+    text-align: center;
+    color:#39393a;
+}
+
+/* Making alignments of the H1 and H2 of the Star Force Costs Page */
+.sfcH1, .sfcH2{
     text-align: center;
     color:#39393a;
 }
