@@ -263,7 +263,7 @@ form{
     margin-bottom: 25px;
 }
 
-.sfcTable, td, th {
+.sfcTD, .sfcTH {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 10px;
