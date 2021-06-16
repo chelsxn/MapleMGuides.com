@@ -254,7 +254,7 @@ form{
 
 /* Customizing Table */
 
-table{
+.sfcTable{
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 80%;
@@ -263,7 +263,7 @@ table{
     margin-bottom: 25px;
 }
 
-td, th {
+.sfcTable, td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 10px;
