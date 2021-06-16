@@ -225,6 +225,7 @@ form{
 }
 */
 
+/* Editing style for form */
 #name{
     float:left;
     margin-left: 200px;
@@ -253,7 +254,6 @@ form{
 }
 
 /* Customizing Table for Star Force Costs*/
-
 .sfcTable{
     font-family: arial, sans-serif;
     border-collapse: collapse;
