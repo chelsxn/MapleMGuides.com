@@ -252,6 +252,19 @@ form{
     margin-top: 10px;
 }
 
+/* Customizing Table */
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
 
 /* Start https://www.cursors-4u.com */ 
 /* {cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;} 
