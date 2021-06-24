@@ -293,6 +293,12 @@ form{
       background-color: rgb(236, 236, 236);
   }
 
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other on screens that are smaller than 600 px */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+
 
 /* Start https://www.cursors-4u.com */ 
 /* {cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;} 
