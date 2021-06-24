@@ -293,6 +293,25 @@ form{
       background-color: rgb(236, 236, 236);
   }
 
+.normalpbaTable{
+    margin-left: auto;
+    margin-right: auto;`
+}
+
+.innopbaTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emblempbaTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pbaH2{
+    padding-left: 20%;
+}
+
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other on screens that are smaller than 600 px */
 @media screen and (max-width: 600px) {
     .column {
