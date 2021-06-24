@@ -288,6 +288,10 @@ form{
     text-align: center;
   }
 
+  .tr:hover{
+      background-color:rgb(134, 132, 132);
+  }
+
 
 /* Start https://www.cursors-4u.com */ 
 /* {cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;} 
