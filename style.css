@@ -275,6 +275,19 @@ form{
     text-align: center;
   }
 
+  /* Customizing Table for PBA */
+.normalpbaTable, .innopbaTable, .emblempbaTable{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+}
+
+  .pbaTH, .pbaTD {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+  }
+
 
 /* Start https://www.cursors-4u.com */ 
 /* {cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;} 
