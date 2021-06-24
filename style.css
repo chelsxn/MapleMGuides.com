@@ -288,8 +288,9 @@ form{
     text-align: center;
   }
 
-  .tr:hover{
-      background-color:rgb(134, 132, 132);
+  /* Table Row Hover */
+  tr:hover{
+      background-color: rgb(236, 236, 236);
   }
 
 
