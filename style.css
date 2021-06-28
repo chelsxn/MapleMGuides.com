@@ -276,7 +276,7 @@ form{
     text-align: center;
   }
 
-  /* Customizing Table for PBA */
+/* Customizing Table for PBA */
 .normalpbaTable, .innopbaTable, .emblempbaTable{
     font-family: Arial, sans-serif;
     border-collapse: collapse;
@@ -289,7 +289,7 @@ form{
     text-align: center;
   }
 
-  /* Table Row Hover */
+/* Table Row Hover */
   tr:hover{
       background-color: rgb(236, 236, 236);
   }
